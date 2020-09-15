@@ -34,7 +34,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
     for c in sentence:
         if c == " ":
             space_count += 1
-    return space_count 
+    return space_count + 1
 
 
 def main() -> None:
