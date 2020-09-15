@@ -26,11 +26,11 @@ def get_number_of_char(string: str, char: str) -> int:
     for c in string:
         if c == char:
             c += 1
-    return c
+    return count
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    pass
+    for()
 
 
 def main() -> None:
