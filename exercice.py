@@ -30,11 +30,10 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    
+    count = 0
     for c in sentence:
         if c == " ":
-            space_count += 1
-    return space_count + 1
+            
 
 
 def main() -> None:
